@@ -49,15 +49,17 @@ public class Smart_Village
 
     //================================ CREATING FIELS =================================================
         
-        File file = new File("Admin.txt");
-        File file1 = new File("Notice.txt");
-        File file2 = new File("Cottage.txt");
-        File file3 = new File("Newspaper.txt");
-        File file4 = new File("Bus_Ticket.txt");
-        File file5 = new File("Transportation.txt");
-        File file6 = new File("Shoping.txt");
-        File file_01 = new File("User.txt");
-        File file_02 = new File("Complain.txt");
+        File Folder = new File("Data");
+        Folder.mkdir();
+        File file = new File("Data//Admin.txt");
+        File file1 = new File("Data//Notice.txt");
+        File file2 = new File("Data//Cottage.txt");
+        File file3 = new File("Data//Newspaper.txt");
+        File file4 = new File("Data//Bus_Ticket.txt");
+        File file5 = new File("Data//Transportation.txt");
+        File file6 = new File("Data//Shoping.txt");
+        File file_01 = new File("Data//User.txt");
+        File file_02 = new File("Data//Complain.txt");
 
     
     //=================================================================================================    
