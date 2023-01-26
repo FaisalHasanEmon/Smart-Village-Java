@@ -12,7 +12,7 @@ import javax.sound.sampled.BooleanControl;
 import javax.sound.sampled.SourceDataLine;
 import javax.swing.TransferHandler.TransferSupport;
 
-public class Main 
+public class Smart_Village 
 {
     
 //============================================THE FOLLOWING METHOD CONVERTS STRING TO INTEGER AND CHEKS THE CONVERTED STRING IS INTEGER OR NOT ============================== 
