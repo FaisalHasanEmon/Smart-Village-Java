@@ -1,12 +1,12 @@
+package All_Classes;
 import java.io.Serializable;
 
-import javax.lang.model.element.NestingKind;
 public class Newspaper implements Serializable{
 
-    String Newspaper_Name;
-    String Newspaper_Type;
-    int Newspaper_Price;
-    Newspaper(String Newspaper_Name, String Newspaper_Type, int Newspaper_Price)
+   public String Newspaper_Name;
+   public String Newspaper_Type;
+   public int Newspaper_Price;
+   public Newspaper(String Newspaper_Name, String Newspaper_Type, int Newspaper_Price)
     {
         this.Newspaper_Name = Newspaper_Name;
         this.Newspaper_Type = Newspaper_Type;

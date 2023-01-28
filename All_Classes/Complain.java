@@ -1,9 +1,10 @@
+package All_Classes;
 import java.io.Serializable;
 public class Complain implements Serializable{
-    String User_name;
-    String Complain;
-    String Number;
-    Complain(String User_name,String Number, String Complain)
+   public String User_name;
+   public String Complain;
+   public String Number;
+   public Complain(String User_name,String Number, String Complain)
     {
         this.User_name = User_name;
         this.Number = Number;

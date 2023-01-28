@@ -5,12 +5,23 @@ import java.sql.Blob;
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.LinkedTransferQueue;
+import All_Classes.Admin.*;
 
 import javax.lang.model.element.NestingKind;
 import javax.lang.model.util.ElementScanner14;
 import javax.sound.sampled.BooleanControl;
 import javax.sound.sampled.SourceDataLine;
 import javax.swing.TransferHandler.TransferSupport;
+
+import All_Classes.Admin;
+import All_Classes.Bus_Ticket;
+import All_Classes.Complain;
+import All_Classes.Cottage;
+import All_Classes.Newspaper;
+import All_Classes.Notice;
+import All_Classes.Shop;
+import All_Classes.Transportation;
+import All_Classes.User;
 
 public class Smart_Village 
 {

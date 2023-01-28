@@ -1,13 +1,14 @@
+package All_Classes;
 import java.io.Serializable;
 
 public class Shop implements Serializable{
-    String Product_Code;
-    String Product_Type;
-    String Product_Name;
-    String Product_Quantity;
-    int Product_Price;
+   public String Product_Code;
+   public String Product_Type;
+   public String Product_Name;
+   public String Product_Quantity;
+   public int Product_Price;
 
-    Shop(String Product_Code, String Product_Type, String Product_Name, String Product_Quantity, int Product_Price)
+   public Shop(String Product_Code, String Product_Type, String Product_Name, String Product_Quantity, int Product_Price)
     {
         this.Product_Code = Product_Code;
         this.Product_Type = Product_Type;
